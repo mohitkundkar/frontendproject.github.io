@@ -1,0 +1,112 @@
+/* .Home{
+    height: 100vh;
+    background-color:cadetblue;
+    font-size: larger;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login{
+    height: 100vh;
+    background-color:darkolivegreen;
+    font-size: larger;
+    color: rgb(3, 1, 14);
+
+}
+.Home img{
+    border: 2px solid red;
+    height: 20rem;
+    width: 30rem;
+} */
+h1{
+    color: black;
+}
+body{
+    background-color:rgb(166, 190, 236);
+
+}
+.app{
+    text-align: center;
+}
+.container{
+    background-color:rgb(7,2,71);
+    justify-content: center;
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+input[type=text], select{
+    border: 3px solid rgb(219, 221, 80);
+    width: 80%;
+    padding: 12px 20px ;
+    margin: 30px 0;
+    display: inline-block;
+    /* border: 1px solid rgb(154, 13, 13); */
+    border-radius: 4px ;
+    box-sizing: border-box;
+
+
+}
+
+button{
+    width: 15%;
+    background-color: #954caf;
+    color: black;
+    padding: 14px 20px ;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px ;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+ button:hover{
+    background-color: #45a049;
+
+ }
+ .header{
+    text-shadow: 3px 0px 0px rgb(228, 87, 11);
+    width: 100%;
+    padding: 12px 20px;
+    color: rgb(74, 236, 90);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .List-heading{
+    text-shadow: 3px 0px 0px rgb(185, 228, 11);
+    color:rgb(215, 156, 156);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    /* background-color:cadetblue; */
+    width: 60%;
+ }
+ span{
+    color: darkgoldenrod;
+ }
+
+ .listData{
+    color: black;
+    font-size: 20px;
+    background-color:rgb( 164, 203,237);
+    text-align: left;
+    padding-left: 30px;
+    width: 53%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+
+ }
+ .btn-position{
+    position: relative;
+    left: 15%;
+    top: -51px;
+
+ }
+
